@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".AudioActivity">
+
+    <Button
+        android:id="@+id/btnSelectAudio"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:background="#775E5E"
+        android:textColor="@color/white"
+        android:text="OPEN FILE AUDIO TO LOAD" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#150E0E"
+        android:src="@drawable/mymusic"
+        app:srcCompat="@drawable/mymusic" />
+
+    <ImageButton
+        android:id="@+id/btnplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="#775E5E"
+        android:src="@drawable/play" />
+
+    <ImageButton
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#775E5E"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/stop" />
+</LinearLayout>
